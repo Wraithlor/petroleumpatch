@@ -83,7 +83,8 @@ See `CHANGELOG.md` for version history and `SUMMARY.md` for the text used on the
 
 ## Links
 
-- ModDB: _(add after first release)_
+- ModDB: <https://mods.vintagestory.at/show/mod/77909>
+- Releases: <https://github.com/Wraithlor/petroleumpatch/releases>
 
 ## License
 
