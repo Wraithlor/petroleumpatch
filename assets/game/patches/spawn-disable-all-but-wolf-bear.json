@@ -1,0 +1,8 @@
+[
+  {
+    "op": "remove",
+    "path": "/server/behaviors/8/spawnGroups",
+    "file": "game:entities/animal/mammal/fox-adult.json",
+    "condition": { "when": "false" }
+  }
+]

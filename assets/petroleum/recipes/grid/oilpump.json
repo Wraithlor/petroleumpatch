@@ -1,0 +1,21 @@
+[
+  {
+    "ingredientPattern": "NPN,_P_,_P_",
+    "ingredients": {
+      "N": {
+        "type": "item",
+        "code": "game:metalnailsandstrips-iron"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-iron"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "petroleum:oilpump"
+    }
+  }
+]

@@ -1,0 +1,116 @@
+{
+  "code": "oilpump",
+  "class": "PetroleumOilPump",
+  "entityClass": "PetroleumOilPump",
+  "attributes": {
+    "litresPerStroke": 1,
+    "secondsPerStroke": 1,
+    "maxDepth": 96,
+    "handbook": {
+      "extraSections": [
+        {
+          "title": "petroleum:handbook-oilpump-title",
+          "text": "petroleum:handbook-oilpump-text"
+        }
+      ]
+    }
+  },
+  "shape": {
+    "base": "petroleum:block/oilpump"
+  },
+  "drawtype": "json",
+  "textures": {
+    "steel": {
+      "base": "game:block/metal/plate/iron"
+    },
+    "iron": {
+      "base": "game:block/metal/plate/iron"
+    },
+    "wood": {
+      "base": "petroleum:item/bitumen"
+    }
+  },
+  "blockmaterial": "Metal",
+  "resistance": 3,
+  "lightAbsorption": 0,
+  "creativeinventory": {
+    "general": [
+      "*"
+    ],
+    "mechanics": [
+      "*"
+    ],
+    "petroleum": [
+      "*"
+    ]
+  },
+  "sidesolid": {
+    "all": false,
+    "down": true
+  },
+  "sideopaque": {
+    "all": false
+  },
+  "sounds": {
+    "place": "game:block/chute",
+    "break": "game:block/chute",
+    "hit": "game:block/chute",
+    "walk": "game:walk/stone*"
+  },
+  "guiTransform": {
+    "origin": {
+      "x": 0.5,
+      "y": 0.55,
+      "z": 0.5
+    },
+    "scale": 1.1
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -1.1,
+      "y": -0.6,
+      "z": -0.7
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": -80
+    },
+    "scale": 0.5
+  },
+  "entityBehaviors": [
+    {
+      "name": "PetroleumMechOilPump",
+      "properties": {
+        "litresPerSecond": 1,
+        "ratedSpeed": 0.4,
+        "minSpeed": 0.05,
+        "workResistance": 0.15,
+        "idleResistance": 0.02,
+        "maxDepth": 96,
+        "resistance": 0.02
+      }
+    }
+  ],
+  "shapeInventory": {
+    "base": "petroleum:block/oilpump-inventory"
+  },
+  "collisionSelectionBoxes": [
+    {
+      "x1": 0,
+      "y1": 0,
+      "z1": 0,
+      "x2": 1,
+      "y2": 0.125,
+      "z2": 1
+    },
+    {
+      "x1": 0.25,
+      "y1": 0.125,
+      "z1": 0.25,
+      "x2": 0.75,
+      "y2": 1,
+      "z2": 0.75
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "code": "petroleum-bitumen-to-coke",
+    "perishableProps": {
+      "type": "None",
+      "freshHours": { "avg": 48 },
+      "transitionHours": { "avg": 48 },
+      "transitionRatio": 1,
+      "transitionedStack": { "type": "item", "code": "game:coke" }
+    },
+    "shape": { "base": "game:block/food/meal/liquid" },
+    "ingredients": [
+      {
+        "code": "bitumen",
+        "validStacks": [
+          { "type": "item", "code": "petroleum:bitumen" }
+        ],
+        "minQuantity": 1,
+        "maxQuantity": 1
+      }
+    ],
+    "cooksInto": { "type": "Item", "code": "game:coke", "quantity": 1 }
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "file": "petroleum:itemtypes/bitumen.json",
+    "op": "add",
+    "path": "/combustibleProps/meltingPoint",
+    "value": 400
+  },
+  {
+    "file": "petroleum:itemtypes/bitumen.json",
+    "op": "add",
+    "path": "/combustibleProps/meltingDuration",
+    "value": 20
+  },
+  {
+    "file": "petroleum:itemtypes/bitumen.json",
+    "op": "add",
+    "path": "/combustibleProps/requiresContainer",
+    "value": false
+  },
+  {
+    "file": "petroleum:itemtypes/bitumen.json",
+    "op": "add",
+    "path": "/combustibleProps/smeltedRatio",
+    "value": 1
+  },
+  {
+    "file": "petroleum:itemtypes/bitumen.json",
+    "op": "add",
+    "path": "/combustibleProps/smeltedStack",
+    "value": {
+      "type": "item",
+      "code": "game:coke"
+    }
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "code": "petroleum-crudeoil-to-bitumen",
+    "perishableProps": {
+      "type": "None",
+      "freshHours": { "avg": 48 },
+      "transitionHours": { "avg": 48 },
+      "transitionRatio": 1,
+      "transitionedStack": { "type": "item", "code": "petroleum:bitumen" }
+    },
+    "shape": { "base": "game:block/food/meal/liquid" },
+    "ingredients": [
+      {
+        "code": "crudeoil",
+        "validStacks": [
+          { "type": "item", "code": "petroleum:crudeoilportion" }
+        ],
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "portionSizeLitres": 1
+      }
+    ],
+    "cooksInto": { "type": "Item", "code": "petroleum:bitumen", "quantity": 1 }
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "item-crackingcatalyst": "Cracking catalyst",
+  "handbook-crackingcatalyst-title": "Cracking catalyst",
+  "handbook-crackingcatalyst-text": "A single-use catalyst for breaking crude oil down into bitumen in a barrel. Place it in a barrel together with crude oil; one catalyst converts one litre of crude oil into one bitumen. It is consumed in the process.<br><br>Because it cannot stack, automated item pipes can only insert one catalyst at a time. This keeps the barrel conversion in step with the crude oil flowing in, and prevents a full stack of catalyst from over-processing a partly filled barrel."
+}

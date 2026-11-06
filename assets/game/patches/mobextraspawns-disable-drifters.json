@@ -1,0 +1,62 @@
+[
+  {
+    "op": "replace",
+    "path": "/temporalStormSpawns/spawnsByStormStrength/variantGroups/drifter",
+    "value": [],
+    "file": "game:config/mobextraspawns.json"
+  },
+  {
+    "op": "replace",
+    "path": "/temporalStormSpawns/spawnsByStormStrength/variantGroups/shiver",
+    "value": [],
+    "file": "game:config/mobextraspawns.json"
+  },
+  {
+    "op": "replace",
+    "path": "/temporalStormSpawns/spawnsByStormStrength/variantGroups/bowtorn",
+    "value": [],
+    "file": "game:config/mobextraspawns.json"
+  },
+  {
+    "op": "replace",
+    "path": "/temporalStormSpawns/spawnsByStormStrength/variantQuantityMuls/drifter",
+    "value": 0,
+    "file": "game:config/mobextraspawns.json"
+  },
+  {
+    "op": "replace",
+    "path": "/temporalStormSpawns/spawnsByStormStrength/variantQuantityMuls/shiver",
+    "value": 0,
+    "file": "game:config/mobextraspawns.json"
+  },
+  {
+    "op": "replace",
+    "path": "/temporalStormSpawns/spawnsByStormStrength/variantQuantityMuls/bowtorn",
+    "value": 0,
+    "file": "game:config/mobextraspawns.json"
+  },
+  {
+    "op": "replace",
+    "path": "/temporalStormSpawns/spawnsByStormStrength/spawnPatterns",
+    "value": {},
+    "file": "game:config/mobextraspawns.json"
+  },
+  {
+    "op": "replace",
+    "path": "/temporalStormSpawns/rareSpawns/variants",
+    "value": [],
+    "file": "game:config/mobextraspawns.json"
+  },
+  {
+    "op": "replace",
+    "path": "/devastationAreaSpawns/quantities",
+    "value": {},
+    "file": "game:config/mobextraspawns.json"
+  },
+  {
+    "op": "replace",
+    "path": "/devastationAreaSpawns/variantGroups",
+    "value": {},
+    "file": "game:config/mobextraspawns.json"
+  }
+]

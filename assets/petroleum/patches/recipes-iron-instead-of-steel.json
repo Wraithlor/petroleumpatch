@@ -1,0 +1,72 @@
+[
+  {
+    "file": "petroleum:recipes/grid/electric.json",
+    "op": "replace",
+    "path": "/0/ingredients/S/code",
+    "value": "game:metalplate-iron"
+  },
+  {
+    "file": "petroleum:recipes/grid/engines.json",
+    "op": "replace",
+    "path": "/1/ingredients/S/code",
+    "value": "game:metalplate-iron"
+  },
+  {
+    "file": "petroleum:recipes/grid/engines.json",
+    "op": "replace",
+    "path": "/2/ingredients/N/code",
+    "value": "game:metalnailsandstrips-iron"
+  },
+  {
+    "file": "petroleum:recipes/grid/engines.json",
+    "op": "replace",
+    "path": "/2/ingredients/S/code",
+    "value": "game:metalplate-iron"
+  },
+  {
+    "file": "petroleum:recipes/grid/engines.json",
+    "op": "replace",
+    "path": "/3/ingredients/N/code",
+    "value": "game:metalnailsandstrips-iron"
+  },
+  {
+    "file": "petroleum:recipes/grid/engines.json",
+    "op": "replace",
+    "path": "/3/ingredients/S/code",
+    "value": "game:metalplate-iron"
+  },
+  {
+    "file": "petroleum:recipes/grid/fractionatingstill.json",
+    "op": "replace",
+    "path": "/0/ingredients/P/code",
+    "value": "game:metalplate-iron"
+  },
+  {
+    "file": "petroleum:recipes/grid/keroseneburner.json",
+    "op": "remove",
+    "path": "/0/ingredients/N/allowedVariants/6"
+  },
+  {
+    "file": "petroleum:recipes/grid/oilfiredstill.json",
+    "op": "replace",
+    "path": "/0/ingredients/P/code",
+    "value": "game:metalplate-iron"
+  },
+  {
+    "file": "petroleum:recipes/grid/oiltank.json",
+    "op": "replace",
+    "path": "/0/ingredients/P/code",
+    "value": "game:metalplate-iron"
+  },
+  {
+    "file": "petroleum:recipes/grid/oiltank.json",
+    "op": "replace",
+    "path": "/0/ingredients/N/code",
+    "value": "game:metalnailsandstrips-iron"
+  },
+  {
+    "file": "petroleum:recipes/grid/substitutes/fruitpress.json",
+    "op": "remove",
+    "path": "/0/ingredients/I/allowedVariants/6"
+  }
+]
