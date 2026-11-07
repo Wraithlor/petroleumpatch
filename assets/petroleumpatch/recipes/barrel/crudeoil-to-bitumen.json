@@ -1,6 +1,7 @@
 [
   {
-    "code": "petroleumpatch-crudeoil-to-bitumen",
+    "code": "petroleumpatch-crudeoil-to-bitumen-charcoal",
+    "sealHours": 72,
     "ingredients": [
       {
         "type": "item",
@@ -10,7 +11,73 @@
       },
       {
         "type": "item",
-        "code": "petroleumpatch:crackingcatalyst",
+        "code": "game:charcoal",
+        "quantity": 1
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "petroleum:bitumen",
+      "stackSize": 1
+    }
+  },
+  {
+    "code": "petroleumpatch-crudeoil-to-bitumen-lignite",
+    "sealHours": 72,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "petroleum:crudeoilportion",
+        "litres": 1,
+        "consumeLitres": 1
+      },
+      {
+        "type": "item",
+        "code": "game:ore-lignite",
+        "quantity": 1
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "petroleum:bitumen",
+      "stackSize": 1
+    }
+  },
+  {
+    "code": "petroleumpatch-crudeoil-to-bitumen-bituminouscoal",
+    "sealHours": 72,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "petroleum:crudeoilportion",
+        "litres": 1,
+        "consumeLitres": 1
+      },
+      {
+        "type": "item",
+        "code": "game:ore-bituminouscoal",
+        "quantity": 1
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "petroleum:bitumen",
+      "stackSize": 1
+    }
+  },
+  {
+    "code": "petroleumpatch-crudeoil-to-bitumen-anthracite",
+    "sealHours": 72,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "petroleum:crudeoilportion",
+        "litres": 1,
+        "consumeLitres": 1
+      },
+      {
+        "type": "item",
+        "code": "game:ore-anthracite",
         "quantity": 1
       }
     ],

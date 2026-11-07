@@ -2,7 +2,7 @@
 
 ## Summary
 
-An iron-friendly Petroleum Age patch for a safe-island server with limited resources: crude oil → bitumen → coke cooking, Electric Stove smelting, catalyst-based barrel cracking, and disabled rift/temporal storm spawns.
+An iron-friendly Petroleum Age patch for a safe-island server with limited resources: crude oil → bitumen → coke cooking, Electric Stove smelting, sealed coal-assisted barrel conversion, and disabled rift/temporal storm spawns.
 
 ## Description
 
@@ -26,13 +26,14 @@ This patch was built for a custom server organized around safe islands with limi
 - **Cooking pot:** 1 litre of crude oil cooks into 1 bitumen.
 - **Cooking pot:** 1 bitumen cooks into 1 coke.
 - **Electric Stove:** bitumen smelts into coke at 400°C. No cooking pot or crucible is required.
-- **Barrel cracking:** 1 litre of crude oil plus 1 cracking catalyst converts into 1 bitumen.
+- **Barrel conversion:** 1 litre of crude oil plus 1 charcoal, brown coal, black coal, or anthracite converts into 1 bitumen after the barrel is sealed for 3 in-game days.
 
-### Cracking catalyst
-- A new single-use item crafted from 1 charcoal.
-- It cannot stack, so automated pipes insert only one at a time.
-- One catalyst is consumed per litre of crude oil, and leftover crude oil remains in the barrel.
-- The barrel processes immediately when its contents change; sealing is not required.
+### Barrel conversion
+- The recipe is 1:1: 1 litre of crude oil to 1 of charcoal, brown coal, black coal, or anthracite.
+- Fill the barrel to an exact 1:1 ratio — for example, 50 L of crude oil and 50 coal — then seal it.
+- A barrel will not seal unless its contents match the recipe.
+- After 3 in-game days (72 hours) the crude oil and coal are consumed and each litre becomes 1 bitumen.
+- The coal is consumed, not reused.
 
 ### Spawn changes
 - Drifters, shivers, bowtorns, and their variants no longer spawn.
@@ -44,12 +45,13 @@ This patch was built for a custom server organized around safe islands with limi
 The new processing routes can be fully automated with Electrical Progressive machines and pipes:
 
 1. **Crude oil:** Petroleum tank/valve or barrel → liquid insertion pipe → processing barrel.
-2. **Catalyst:** chest of catalysts → item pipes → insertion pipe into the barrel, filtered to cracking catalyst only.
-3. **Bitumen out:** item pipe from the barrel → insertion pipe into the Electric Stove input, filtered to bitumen only.
-4. **Stove:** powered, no cooking pot installed, temperature above 400°C.
-5. **Coke out:** item pipe from the stove → insertion pipe into coke storage.
+2. **Coal in:** chest of the chosen coal → item pipes → insertion pipe into the barrel, filtered to that coal type only.
+3. **Load and seal:** let the pipes fill the barrel to exactly 1:1 crude oil and coal (for example, 50 L and 50 coal), then seal it by hand. A barrel will not seal unless its contents match the recipe.
+4. **Bitumen out:** after 3 in-game days, unseal the barrel and pipe the bitumen → insertion pipe into the Electric Stove input, filtered to bitumen only.
+5. **Stove:** powered, no cooking pot installed, temperature above 400°C.
+6. **Coke out:** item pipe from the stove → insertion pipe into coke storage.
 
-Use insertion pipes as the final pipe before each container. Keep the processing barrel unsealed.
+Use insertion pipes as the final pipe before each container. The barrel must be sealed for the conversion, so loading and unsealing are manual steps.
 
 ## Requirements
 

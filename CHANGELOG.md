@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.2.0
+
+- Replaced the cracking-catalyst barrel recipe with a sealed coal conversion.
+- A barrel loaded at an exact 1:1 ratio of crude oil to coal now becomes bitumen after 3 in-game days (72 hours): 1 L of crude oil per 1 charcoal, brown coal, black coal, or anthracite.
+- Removed the `crackingcatalyst` item and its crafting recipe.
+- The barrel consumes both the crude oil and the coal; the four coal types are interchangeable.
+
 ## 1.1.4
 
 - Fixed the hot bulb engine and diesel engine sharing an identical grid recipe after the steel-to-iron conversion.
