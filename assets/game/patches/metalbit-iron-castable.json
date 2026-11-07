@@ -1,0 +1,9 @@
+[
+  {
+    "file": "game:itemtypes/resource/metalbit.json",
+    "op": "replace",
+    "path": "/combustiblePropsByType/*-iron/meltingPoint",
+    "value": 1150,
+    "side": "Server"
+  }
+]

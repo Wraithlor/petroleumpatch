@@ -2,7 +2,7 @@
 
 ## Summary
 
-An iron-friendly Petroleum Age patch for a safe-island server with limited resources: crude oil → bitumen → coke cooking, Electric Stove smelting, sealed coal-assisted barrel conversion, and disabled rift/temporal storm spawns.
+An iron-friendly Petroleum Age patch for a safe-island server with limited resources: crude oil → bitumen → coke cooking, Electric Stove smelting, sealed coal-assisted barrel conversion, castable iron bits, and disabled rift/temporal storm spawns.
 
 ## Description
 
@@ -35,6 +35,13 @@ This patch was built for a custom server organized around safe islands with limi
 - After 3 in-game days (72 hours) the crude oil and coal are consumed and each litre becomes 1 bitumen.
 - The coal is consumed, not reused.
 
+### Castable iron bits
+- Iron bits melt at 1150 °C instead of the vanilla 1482 °C, putting them below the crucible's 1200 °C limit and within reach of a charcoal (1300 °C) or coke (1340 °C) firepit.
+- Melt 20 iron bits in a crucible to make 100 units of liquid iron — one ingot's worth.
+- Pour the liquid iron into vanilla tool and ingot molds, or into VanillaMoreMolds molds such as sawblade, nail, plate, hoop, spearhead, knife blade, scythe head, arrowhead, and the heavy ingot/plate/rod mold.
+- Toolsmith drops these bits when tool bindings break; bits from SmithingPlus or from chiseling an iron ingot work the same way.
+- Iron ingots keep their normal melting point; only bits can be re-cast.
+
 ### Spawn changes
 - Drifters, shivers, bowtorns, and their variants no longer spawn.
 - Temporal storm and devastation-area spawns are cleared.
@@ -61,6 +68,14 @@ Use insertion pipes as the final pipe before each container. The barrel must be 
 - Electrical Progressive: Transport (for pipe automation)
 
 Tested with Vintage Story 1.22.7, Petroleum Age 0.21.0, Electrical Progressive QoL 3.3.1, and Electrical Progressive Transport 2.0.0.
+
+### Optional compatibility
+
+These mods are supported but **not required**:
+
+- **Toolsmith** — the iron bits it drops when tool bindings break are castable.
+- **VanillaMoreMolds** — its tool molds and heavy mold accept cast iron.
+- Neither mod has to be installed; the change is applied to the vanilla `metalbit-iron` item.
 
 ## Notes
 

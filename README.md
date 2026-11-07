@@ -5,7 +5,7 @@ It makes late-game oil technology reachable in a resource-limited world, adds au
 refining routes, and calms rift-related hostile spawns.
 
 - **ModID:** `petroleumpatch`
-- **Version:** 1.2.1
+- **Version:** 1.3.0
 - **Side:** Universal (server-side changes; no client code)
 
 ## Why this patch exists
@@ -38,6 +38,15 @@ island-based industry. The spawn changes support the same setting.
 - Seal the barrel. After 3 in-game days (72 hours) the crude oil and coal are consumed and each litre becomes 1 bitumen.
 - The coal is consumed, not reused.
 
+### Castable iron bits
+- Iron bits melt at 1150 °C instead of the vanilla 1482 °C, so a crucible can actually reach their melting point.
+- A charcoal firepit reaches 1300 °C and a coke firepit reaches 1340 °C, both comfortably above 1150 °C.
+- Melt 20 iron bits in a crucible to make 100 units of liquid iron — one ingot's worth.
+- Pour the liquid iron into vanilla tool molds (axe, pickaxe, shovel, hammer, hoe, anvil, helve hammer) or ingot molds.
+- Molds from **VanillaMoreMolds** also work: sawblade, nail, plate, hoop, spearhead, knife blade, scythe head, arrowhead, and the heavy ingot/plate/rod mold.
+- **Toolsmith** drops these bits when tool bindings break; bits from SmithingPlus or from chiseling an iron ingot work the same way.
+- Iron ingots keep their normal melting point, so only bits can be re-cast.
+
 ### Spawn changes
 - Drifters, shivers, bowtorns, and their variants no longer spawn.
 - Temporal storm and devastation-area spawns are cleared.
@@ -52,6 +61,14 @@ island-based industry. The spawn changes support the same setting.
 
 Tested with Vintage Story 1.22.7, Petroleum Age 0.21.0, Electrical Progressive QoL 3.3.1,
 and Electrical Progressive Transport 2.0.0.
+
+### Optional compatibility
+
+These mods are supported but **not required**:
+
+- **Toolsmith** — the iron bits it drops when tool bindings break are castable.
+- **VanillaMoreMolds** — its tool molds and heavy mold accept cast iron.
+- Neither mod has to be installed; the change is applied to the vanilla `metalbit-iron` item.
 
 ## Installation
 

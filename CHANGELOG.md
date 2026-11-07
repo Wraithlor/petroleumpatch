@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.3.0
+
+- Iron bits are now castable. Their melting point is 1150 °C instead of 1482 °C, which is below the crucible's 1200 °C limit and within reach of a charcoal (1300 °C) or coke (1340 °C) firepit.
+- Melt iron bits in a crucible and pour the liquid iron into vanilla tool and ingot molds, or into molds from VanillaMoreMolds such as sawblade, nail, plate, hoop, spearhead, knife blade, scythe head, and arrowhead molds.
+- This covers the iron bits dropped by Toolsmith when tool bindings break, as well as bits from SmithingPlus or from chiseling an iron ingot.
+- No new dependency: the patch changes the vanilla `metalbit-iron` item, so it applies whether or not Toolsmith or a mold mod is installed.
+- Iron ingots keep their normal 1482 °C melting point; only bits can be re-cast.
+
 ## 1.2.1
 
 - Adjusted the barrel conversion fuel list to charcoal, brown coal, and black coal. The 1.2.0 release also accepted anthracite; that recipe has been removed.
