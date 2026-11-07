@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.1
+
+- Adjusted the barrel conversion fuel list to charcoal, brown coal, and black coal. The 1.2.0 release also accepted anthracite; that recipe has been removed.
+
 ## 1.2.0
 
 - Replaced the cracking-catalyst barrel recipe with a sealed coal conversion.

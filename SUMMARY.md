@@ -26,10 +26,10 @@ This patch was built for a custom server organized around safe islands with limi
 - **Cooking pot:** 1 litre of crude oil cooks into 1 bitumen.
 - **Cooking pot:** 1 bitumen cooks into 1 coke.
 - **Electric Stove:** bitumen smelts into coke at 400°C. No cooking pot or crucible is required.
-- **Barrel conversion:** 1 litre of crude oil plus 1 charcoal, brown coal, black coal, or anthracite converts into 1 bitumen after the barrel is sealed for 3 in-game days.
+- **Barrel conversion:** 1 litre of crude oil plus 1 charcoal, brown coal, or black coal converts into 1 bitumen after the barrel is sealed for 3 in-game days.
 
 ### Barrel conversion
-- The recipe is 1:1: 1 litre of crude oil to 1 of charcoal, brown coal, black coal, or anthracite.
+- The recipe is 1:1: 1 litre of crude oil to 1 of charcoal, brown coal, or black coal.
 - Fill the barrel to an exact 1:1 ratio — for example, 50 L of crude oil and 50 coal — then seal it.
 - A barrel will not seal unless its contents match the recipe.
 - After 3 in-game days (72 hours) the crude oil and coal are consumed and each litre becomes 1 bitumen.
