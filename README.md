@@ -5,7 +5,7 @@ It makes late-game oil technology reachable in a resource-limited world, adds au
 refining routes, and calms rift-related hostile spawns.
 
 - **ModID:** `petroleumpatch`
-- **Version:** 1.1.3
+- **Version:** 1.1.4
 - **Side:** Universal (server-side changes; no client code)
 
 ## Why this patch exists
@@ -19,6 +19,7 @@ island-based industry. The spawn changes support the same setting.
 
 ### Iron instead of steel
 - Petroleum Age recipes that normally require steel now use iron plates and iron nails/strips.
+- The hot bulb engine uses a copper plate at the top center and a zinc plate at the bottom center, so it stays distinct from the diesel engine.
 - The oil pump is retextured to match its new iron construction.
 - The original iron oil-pump recipe is kept.
 

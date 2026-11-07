@@ -9,7 +9,22 @@
     "file": "petroleum:recipes/grid/engines.json",
     "op": "replace",
     "path": "/1/ingredients/S/code",
-    "value": "game:metalplate-iron"
+    "value": "game:metalplate-copper"
+  },
+  {
+    "file": "petroleum:recipes/grid/engines.json",
+    "op": "add",
+    "path": "/1/ingredients/Z",
+    "value": {
+      "type": "item",
+      "code": "game:metalplate-zinc"
+    }
+  },
+  {
+    "file": "petroleum:recipes/grid/engines.json",
+    "op": "replace",
+    "path": "/1/ingredientPattern",
+    "value": "NSN,IAI,IZI"
   },
   {
     "file": "petroleum:recipes/grid/engines.json",

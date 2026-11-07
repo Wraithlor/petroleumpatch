@@ -18,6 +18,7 @@ This patch was built for a custom server organized around safe islands with limi
 
 ### Iron instead of steel
 - Petroleum Age recipes that normally require steel now use iron plates and iron nails/strips.
+- The hot bulb engine uses a copper plate at the top center and a zinc plate at the bottom center, so it stays distinct from the diesel engine.
 - The oil pump is retextured to match its new iron construction.
 - The iron oil-pump recipe is preserved.
 
