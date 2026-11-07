@@ -5,7 +5,7 @@ It makes late-game oil technology reachable in a resource-limited world, adds au
 refining routes, and calms rift-related hostile spawns.
 
 - **ModID:** `petroleumpatch`
-- **Version:** 1.3.0
+- **Version:** 1.3.1
 - **Side:** Universal (server-side changes; no client code)
 
 ## Why this patch exists
@@ -45,7 +45,8 @@ island-based industry. The spawn changes support the same setting.
 - Pour the liquid iron into vanilla tool molds (axe, pickaxe, shovel, hammer, hoe, anvil, helve hammer) or ingot molds.
 - Molds from **VanillaMoreMolds** also work: sawblade, nail, plate, hoop, spearhead, knife blade, scythe head, arrowhead, and the heavy ingot/plate/rod mold.
 - **Toolsmith** drops these bits when tool bindings break; bits from SmithingPlus or from chiseling an iron ingot work the same way.
-- Iron ingots keep their normal melting point, so only bits can be re-cast.
+- Iron ingots now melt at 1150 °C as well, so the crucible contents stay liquid after the bits are smelted and can be poured. Whole iron ingots can also be melted and cast.
+- Steel and meteoric iron keep their higher vanilla melting points.
 
 ### Spawn changes
 - Drifters, shivers, bowtorns, and their variants no longer spawn.

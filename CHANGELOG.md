@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.3.1
+
+- Fixed pouring molten iron. 1.3.0 lowered the iron bits' melting point, but the crucible stores smelted bits as an iron ingot, which still melted at 1482 °C. The crucible therefore treated its contents as solidified and refused to pour.
+- Iron ingots now melt at 1150 °C as well, so the stored contents stay liquid and can be poured into molds.
+- Side effect: whole iron ingots are now castable too. You can melt bits or ingots in a crucible and pour them into tool and ingot molds.
+- Steel, meteoric iron, and the other metals keep their vanilla melting points.
+
 ## 1.3.0
 
 - Iron bits are now castable. Their melting point is 1150 °C instead of 1482 °C, which is below the crucible's 1200 °C limit and within reach of a charcoal (1300 °C) or coke (1340 °C) firepit.

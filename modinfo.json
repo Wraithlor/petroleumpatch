@@ -3,8 +3,8 @@
   "modid": "petroleumpatch",
   "name": "Petroleum Age: Iron & Refining Patch",
   "authors": ["server-patch"],
-  "description": "An iron-friendly Petroleum Age patch for a safe-island server with limited resources: crude oil to bitumen to coke cooking, Electric Stove smelting, sealed coal-assisted barrel conversion, castable iron bits, and disabled rift/temporal storm spawns.",
-  "version": "1.3.0",
+  "description": "An iron-friendly Petroleum Age patch for a safe-island server with limited resources: crude oil to bitumen to coke cooking, Electric Stove smelting, sealed coal-assisted barrel conversion, castable iron, and disabled rift/temporal storm spawns.",
+  "version": "1.3.1",
   "dependencies": {
     "game": "*",
     "petroleum": "*",

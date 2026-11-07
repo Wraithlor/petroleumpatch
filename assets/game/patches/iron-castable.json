@@ -5,5 +5,12 @@
     "path": "/combustiblePropsByType/*-iron/meltingPoint",
     "value": 1150,
     "side": "Server"
+  },
+  {
+    "file": "game:itemtypes/resource/ingot.json",
+    "op": "replace",
+    "path": "/combustiblePropsByType/ingot-iron/meltingPoint",
+    "value": 1150,
+    "side": "Server"
   }
 ]

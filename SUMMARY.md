@@ -2,7 +2,7 @@
 
 ## Summary
 
-An iron-friendly Petroleum Age patch for a safe-island server with limited resources: crude oil → bitumen → coke cooking, Electric Stove smelting, sealed coal-assisted barrel conversion, castable iron bits, and disabled rift/temporal storm spawns.
+An iron-friendly Petroleum Age patch for a safe-island server with limited resources: crude oil → bitumen → coke cooking, Electric Stove smelting, sealed coal-assisted barrel conversion, castable iron, and disabled rift/temporal storm spawns.
 
 ## Description
 
@@ -40,7 +40,8 @@ This patch was built for a custom server organized around safe islands with limi
 - Melt 20 iron bits in a crucible to make 100 units of liquid iron — one ingot's worth.
 - Pour the liquid iron into vanilla tool and ingot molds, or into VanillaMoreMolds molds such as sawblade, nail, plate, hoop, spearhead, knife blade, scythe head, arrowhead, and the heavy ingot/plate/rod mold.
 - Toolsmith drops these bits when tool bindings break; bits from SmithingPlus or from chiseling an iron ingot work the same way.
-- Iron ingots keep their normal melting point; only bits can be re-cast.
+- Iron ingots now melt at 1150 °C too, so the crucible contents stay liquid and can be poured; whole ingots can also be melted and cast.
+- Steel and meteoric iron keep their higher vanilla melting points.
 
 ### Spawn changes
 - Drifters, shivers, bowtorns, and their variants no longer spawn.
