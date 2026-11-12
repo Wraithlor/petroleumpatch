@@ -1,0 +1,56 @@
+[
+  {
+    "dependsOn": [{ "modid": "colonialfirearms" }, { "modid": "firearmsfork" }],
+    "file": "petroleumpatch:recipes/grid/colonialfirearms-primers.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "GP",
+      "ingredients": {
+        "G": { "type": "item", "code": "maltiezfirearms:gunpowder-fine" },
+        "P": { "type": "item", "code": "game:nugget-nativecopper" }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "output": { "type": "item", "code": "colonialfirearms:primer", "quantity": 4 }
+    }
+  },
+  {
+    "dependsOn": [{ "modid": "colonialfirearms" }, { "modid": "firearmsfork" }],
+    "file": "petroleumpatch:recipes/grid/colonialfirearms-primers.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "G",
+      "ingredients": {
+        "G": { "type": "item", "code": "maltiezfirearms:gunpowder-fine" }
+      },
+      "width": 1,
+      "height": 1,
+      "output": { "type": "item", "code": "game:saltpeter", "quantity": 1 }
+    }
+  },
+  {
+    "dependsOn": [{ "modid": "colonialfirearms" }, { "modid": "firearmsfork" }],
+    "file": "petroleumpatch:recipes/grid/colonialfirearms-primers.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "G",
+      "ingredients": {
+        "G": { "type": "item", "code": "maltiezfirearms:gunpowder-fine" }
+      },
+      "width": 1,
+      "height": 1,
+      "output": { "type": "item", "code": "game:powder-sulfur", "quantity": 1 }
+    }
+  },
+  {
+    "dependsOn": [{ "modid": "colonialfirearms" }],
+    "file": "colonialfirearms:lang/en.json",
+    "op": "replace",
+    "path": "/blockdesc-primerpress",
+    "value": "Universal hand-operated press for producing Primers from saltpeter, powdered sulfur, and native copper. Both mineral powders can be made from fine gunpowder, and Primers can also be assembled by hand from fine gunpowder and a native copper nugget."
+  }
+]

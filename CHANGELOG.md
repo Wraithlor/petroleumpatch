@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.6.0
+
+- Added a gunpowder route for Colonial Firearms primers. The Primer Press's inputs are hardcoded in the mod's C# code (`game:saltpeter`, `game:powder-sulfur`, `game:nugget-nativecopper`), so the press itself cannot be repatched; instead the patch supplies the missing routes.
+- Fine gunpowder (`maltiezfirearms:gunpowder-fine`) can now be converted 1:1 into saltpeter and into powdered sulfur in the crafting grid. The Primer Press then runs on 2 fine gunpowder and 1 native copper nugget per batch of 16 primers.
+- Primers can also be assembled directly by hand: 1 fine gunpowder + 1 native copper nugget → 4 primers, shapeless.
+- The Primer Press handbook text now mentions the gunpowder routes.
+- All of the above is gated on Colonial Firearms and Firearms Fork and is skipped when either mod is absent.
+
 ## 1.5.0
 
 - Added optional Colonial Firearms compatibility. The patch is skipped automatically if Colonial Firearms is not installed.

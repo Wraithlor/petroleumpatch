@@ -5,7 +5,7 @@ It makes late-game oil technology reachable in a resource-limited world, adds au
 refining routes, and calms rift-related hostile spawns.
 
 - **ModID:** `petroleumpatch`
-- **Version:** 1.5.0
+- **Version:** 1.6.0
 - **Side:** Universal (server-side changes; no client code)
 
 ## Why this patch exists
@@ -28,6 +28,8 @@ island-based industry. The spawn changes support the same setting.
 - The double-barrel shotgun, Webley revolver, and Trapdoor rifle are craftable from iron components: rifle barrel halves, gun springs, Trapdoor actions, Webley barreled frames, and Webley cylinders are forged from iron ingots.
 - The Martini-Henry remains steel-gated: its Martini action still requires a steel ingot.
 - Bullet molds and trigger/sear sets were already iron and are unchanged.
+- Primers can be made from fine gunpowder. The Primer Press's inputs are hardcoded in Colonial Firearms, so the patch adds routes instead: 1 fine gunpowder → 1 saltpeter and 1 fine gunpowder → 1 powdered sulfur in the crafting grid, which lets the press run on 2 fine gunpowder + 1 native copper nugget per 16 primers. Primers can also be hand-assembled: 1 fine gunpowder + 1 native copper nugget → 4 primers, shapeless.
+- The Primer Press handbook text now mentions the gunpowder routes.
 - No hard dependency: the patch is skipped automatically if Colonial Firearms is not installed.
 
 ### Crude oil processing
@@ -95,7 +97,7 @@ These mods are supported but **not required**:
 
 - **Toolsmith** — the iron bits it drops when tool bindings break are castable.
 - **VanillaMoreMolds** — its tool molds and heavy mold accept cast iron.
-- **Colonial Firearms** — ammunition manufacturing and the low-grade firearms use iron; the Martini-Henry stays steel-gated.
+- **Colonial Firearms** — ammunition manufacturing and the low-grade firearms use iron, primers can be made from fine gunpowder, and the Martini-Henry stays steel-gated.
 - None of these mods has to be installed; their patches are skipped when the mod is absent.
 
 ## Installation
