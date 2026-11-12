@@ -149,3 +149,11 @@ See `CHANGELOG.md` for version history and `SUMMARY.md` for the text used on the
 ## License
 
 MIT — see `LICENSE`.
+
+## AI disclosure
+
+AI was used for nearly all processes during the creation, testing and debugging of this mod. No code from other mods were used or copied for any of these tweaks other than dependancies.
+
+**NOTE to other mod makers:**
+
+Your code is STILL YOUR CODE, I did not copy nor do I take credit for any of your hard work.

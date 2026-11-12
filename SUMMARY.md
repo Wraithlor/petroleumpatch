@@ -116,3 +116,11 @@ These mods are supported but **not required**:
 - The manual cooking-pot recipes remain available alongside the automated routes.
 - Designed primarily for a custom safe-island server with limited resources; other worlds can use it if they want the same more accessible balance.
 - Server restart required after installation.
+
+## AI disclosure
+
+AI was used for nearly all processes during the creation, testing and debugging of this mod. No code from other mods were used or copied for any of these tweaks other than dependancies.
+
+**NOTE to other mod makers:**
+
+Your code is STILL YOUR CODE, I did not copy nor do I take credit for any of your hard work.
