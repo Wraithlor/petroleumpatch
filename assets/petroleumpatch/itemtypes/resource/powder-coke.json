@@ -1,7 +1,7 @@
 {
   "code": "powder-coke",
   "shape": { "base": "game:item/food/flour" },
-  "texture": { "base": "game:item/resource/crushed/charcoal" },
+  "texture": { "base": "game:block/coal/coke" },
   "creativeinventory": {
     "general": ["*"],
     "items": ["*"],
@@ -19,7 +19,7 @@
     }
   ],
   "attributes": {
-    "inContainerTexture": { "base": "game:block/coal/charcoal" },
+    "inContainerTexture": { "base": "game:block/coal/coke" },
     "displaycaseable": true,
     "shelvable": true,
     "handbook": {

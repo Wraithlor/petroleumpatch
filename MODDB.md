@@ -2,7 +2,7 @@
 
 ## Summary
 
-An iron-friendly Petroleum Age patch for a safe-island server with limited resources: crude oil → bitumen → coke cooking and baking, Electric Oven automation, coal-free sealed barrel conversion, coke-gated castable iron, a Blackguard powdermaker trait for charcoal and coke blasting powder, and disabled rift/temporal storm spawns.
+An iron-friendly Petroleum Age patch for a safe-island server with limited resources: crude oil → bitumen → coke cooking and baking, Electric Oven automation, coal-free sealed barrel conversion, coke-gated castable iron, a Blackguard powdermaker trait for charcoal and coke blasting powder, disabled rift/temporal storm spawns, and optional iron-age Colonial Firearms ammunition and low-grade firearm recipes.
 
 ## Description
 
@@ -21,6 +21,13 @@ This patch was built for a custom server organized around safe islands with limi
 - The hot bulb engine uses a copper plate at the top center and a zinc plate at the bottom center, so it stays distinct from the diesel engine.
 - The oil pump is retextured to match its new iron construction.
 - The iron oil-pump recipe is preserved.
+
+### Colonial Firearms compatibility (optional)
+- When Colonial Firearms is installed, its ammunition manufacturing is iron-age: the Primer Press, Cartridge Draw Press, Cartridge Loading Press, Shot Dripper, and all four casing dies use iron instead of steel.
+- The double-barrel shotgun, Webley revolver, and Trapdoor rifle are craftable from iron components: rifle barrel halves, gun springs, Trapdoor actions, Webley barreled frames, and Webley cylinders are forged from iron ingots.
+- The Martini-Henry remains steel-gated: its Martini action still requires a steel ingot.
+- Bullet molds and trigger/sear sets were already iron and are unchanged.
+- No hard dependency: the patch is skipped automatically if Colonial Firearms is not installed.
 
 ### Crude oil processing
 - **Cooking pot:** 1 litre of crude oil cooks into 1 bitumen.
@@ -91,7 +98,7 @@ manual alternatives, and the Electric Stove route can still smelt bitumen at 400
 - Electrical Progressive: QoL (for the Electric Oven)
 - Electrical Progressive: Transport (for pipe automation)
 
-Tested with Vintage Story 1.22.7, Petroleum Age 0.21.0, Electrical Progressive QoL 3.3.1, and Electrical Progressive Transport 2.0.0.
+Tested with Vintage Story 1.22.7, Petroleum Age 0.21.0, Electrical Progressive QoL 3.3.1, and Electrical Progressive Transport 2.0.0. The optional Colonial Firearms patch targets 0.9.88.
 
 ### Optional compatibility
 
@@ -99,7 +106,8 @@ These mods are supported but **not required**:
 
 - **Toolsmith** — the iron bits it drops when tool bindings break are castable.
 - **VanillaMoreMolds** — its tool molds and heavy mold accept cast iron.
-- Neither mod has to be installed; the change is applied to the vanilla `metalbit-iron` item.
+- **Colonial Firearms** — ammunition manufacturing and the low-grade firearms use iron; the Martini-Henry stays steel-gated.
+- None of these mods has to be installed; their patches are skipped when the mod is absent.
 
 ## Notes
 

@@ -5,7 +5,7 @@ It makes late-game oil technology reachable in a resource-limited world, adds au
 refining routes, and calms rift-related hostile spawns.
 
 - **ModID:** `petroleumpatch`
-- **Version:** 1.4.0
+- **Version:** 1.5.0
 - **Side:** Universal (server-side changes; no client code)
 
 ## Why this patch exists
@@ -22,6 +22,13 @@ island-based industry. The spawn changes support the same setting.
 - The hot bulb engine uses a copper plate at the top center and a zinc plate at the bottom center, so it stays distinct from the diesel engine.
 - The oil pump is retextured to match its new iron construction.
 - The original iron oil-pump recipe is kept.
+
+### Colonial Firearms compatibility (optional)
+- When Colonial Firearms is installed, its ammunition manufacturing is iron-age: the Primer Press, Cartridge Draw Press, Cartridge Loading Press, Shot Dripper, and all four casing dies use iron instead of steel.
+- The double-barrel shotgun, Webley revolver, and Trapdoor rifle are craftable from iron components: rifle barrel halves, gun springs, Trapdoor actions, Webley barreled frames, and Webley cylinders are forged from iron ingots.
+- The Martini-Henry remains steel-gated: its Martini action still requires a steel ingot.
+- Bullet molds and trigger/sear sets were already iron and are unchanged.
+- No hard dependency: the patch is skipped automatically if Colonial Firearms is not installed.
 
 ### Crude oil processing
 | Route | Input | Output | Notes |
@@ -80,7 +87,7 @@ island-based industry. The spawn changes support the same setting.
 - Electrical Progressive: Transport (pipe automation)
 
 Tested with Vintage Story 1.22.7, Petroleum Age 0.21.0, Electrical Progressive QoL 3.3.1,
-and Electrical Progressive Transport 2.0.0.
+and Electrical Progressive Transport 2.0.0. The optional Colonial Firearms patch targets 0.9.88.
 
 ### Optional compatibility
 
@@ -88,7 +95,8 @@ These mods are supported but **not required**:
 
 - **Toolsmith** — the iron bits it drops when tool bindings break are castable.
 - **VanillaMoreMolds** — its tool molds and heavy mold accept cast iron.
-- Neither mod has to be installed; the change is applied to the vanilla `metalbit-iron` item.
+- **Colonial Firearms** — ammunition manufacturing and the low-grade firearms use iron; the Martini-Henry stays steel-gated.
+- None of these mods has to be installed; their patches are skipped when the mod is absent.
 
 ## Installation
 

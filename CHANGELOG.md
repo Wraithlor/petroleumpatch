@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.5.0
+
+- Added optional Colonial Firearms compatibility. The patch is skipped automatically if Colonial Firearms is not installed.
+- Ammunition manufacturing is now iron-age: the Primer Press, Cartridge Draw Press, Cartridge Loading Press, Shot Dripper, and all four caliber casing dies use iron instead of steel.
+- The double-barrel shotgun, Webley revolver, and Trapdoor rifle are now iron-age: rifle barrel halves, gun springs, Trapdoor actions, Webley barreled frames, and Webley cylinders are forged from iron ingots.
+- The Martini-Henry remains steel-gated: its Martini action still requires a steel ingot.
+- Bullet molds and trigger/sear sets were already iron and are unchanged.
+
+## 1.4.1
+
+- Powdered coke now uses the coke block texture, so it is visually distinct from powdered charcoal.
+
 ## 1.4.0
 
 - Added the `powdermaker` trait to the vanilla Blackguard class. It is a plain game trait and class patch, so it does not require the Specialized Classes mod.

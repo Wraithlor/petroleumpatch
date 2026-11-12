@@ -1,0 +1,93 @@
+[
+  {
+    "dependsOn": [{ "modid": "colonialfirearms" }],
+    "file": "colonialfirearms:recipes/grid/primerpress.json",
+    "op": "replace",
+    "path": "/ingredients/S/code",
+    "value": "game:ingot-iron"
+  },
+  {
+    "dependsOn": [{ "modid": "colonialfirearms" }],
+    "file": "colonialfirearms:recipes/grid/cartridgedrawpress.json",
+    "op": "replace",
+    "path": "/ingredients/S/code",
+    "value": "game:ingot-iron"
+  },
+  {
+    "dependsOn": [{ "modid": "colonialfirearms" }],
+    "file": "colonialfirearms:recipes/grid/cartridgeloadingpress.json",
+    "op": "replace",
+    "path": "/ingredients/S/code",
+    "value": "game:ingot-iron"
+  },
+  {
+    "dependsOn": [{ "modid": "colonialfirearms" }],
+    "file": "colonialfirearms:recipes/grid/shotdripper.json",
+    "op": "replace",
+    "path": "/ingredients/P/code",
+    "value": "game:metalplate-iron"
+  },
+  {
+    "dependsOn": [{ "modid": "colonialfirearms" }],
+    "file": "colonialfirearms:recipes/smithing/casingdie4570.json",
+    "op": "replace",
+    "path": "/ingredient/code",
+    "value": "game:ingot-iron"
+  },
+  {
+    "dependsOn": [{ "modid": "colonialfirearms" }],
+    "file": "colonialfirearms:recipes/smithing/casingdie577450.json",
+    "op": "replace",
+    "path": "/ingredient/code",
+    "value": "game:ingot-iron"
+  },
+  {
+    "dependsOn": [{ "modid": "colonialfirearms" }],
+    "file": "colonialfirearms:recipes/smithing/casingdie455webley.json",
+    "op": "replace",
+    "path": "/ingredient/code",
+    "value": "game:ingot-iron"
+  },
+  {
+    "dependsOn": [{ "modid": "colonialfirearms" }],
+    "file": "colonialfirearms:recipes/smithing/casingdie12g.json",
+    "op": "replace",
+    "path": "/ingredient/code",
+    "value": "game:ingot-iron"
+  },
+  {
+    "dependsOn": [{ "modid": "colonialfirearms" }],
+    "file": "colonialfirearms:recipes/smithing/gunspring.json",
+    "op": "replace",
+    "path": "/ingredient/code",
+    "value": "game:ingot-iron"
+  },
+  {
+    "dependsOn": [{ "modid": "colonialfirearms" }],
+    "file": "colonialfirearms:recipes/smithing/riflebarrelhalf.json",
+    "op": "replace",
+    "path": "/ingredient/code",
+    "value": "game:ingot-iron"
+  },
+  {
+    "dependsOn": [{ "modid": "colonialfirearms" }],
+    "file": "colonialfirearms:recipes/smithing/trapdooraction.json",
+    "op": "replace",
+    "path": "/ingredient/code",
+    "value": "game:ingot-iron"
+  },
+  {
+    "dependsOn": [{ "modid": "colonialfirearms" }],
+    "file": "colonialfirearms:recipes/smithing/webleybarreledframe.json",
+    "op": "replace",
+    "path": "/ingredient/code",
+    "value": "game:ingot-iron"
+  },
+  {
+    "dependsOn": [{ "modid": "colonialfirearms" }],
+    "file": "colonialfirearms:recipes/smithing/webleycylinder.json",
+    "op": "replace",
+    "path": "/ingredient/code",
+    "value": "game:ingot-iron"
+  }
+]
