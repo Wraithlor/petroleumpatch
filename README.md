@@ -152,7 +152,7 @@ MIT — see `LICENSE`.
 
 ## AI disclosure
 
-AI was used for nearly all processes during the creation, testing and debugging of this mod. No code from other mods were used or copied for any of these tweaks other than dependancies.
+AI was used for nearly all processes during the creation, testing and debugging of this mod. No code from other mods was used or copied for any of these tweaks other than dependencies.
 
 **NOTE to other mod makers:**
 
