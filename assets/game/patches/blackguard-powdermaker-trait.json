@@ -1,0 +1,8 @@
+[
+  {
+    "file": "game:config/characterclasses.json",
+    "op": "add",
+    "path": "/4/traits/-",
+    "value": "powdermaker"
+  }
+]

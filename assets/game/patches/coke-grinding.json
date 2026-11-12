@@ -1,0 +1,13 @@
+[
+  {
+    "file": "game:itemtypes/resource/coke.json",
+    "op": "add",
+    "path": "/grindingProps",
+    "value": {
+      "groundStack": {
+        "type": "item",
+        "code": "petroleumpatch:powder-coke"
+      }
+    }
+  }
+]

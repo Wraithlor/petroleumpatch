@@ -1,5 +1,21 @@
 # Changelog
 
+## 1.4.0
+
+- Added the `powdermaker` trait to the vanilla Blackguard class. It is a plain game trait and class patch, so it does not require the Specialized Classes mod.
+- Powdermakers can turn powder directly into blasting powder: 3 powdered charcoal → 1 blasting powder, or 2 powdered coke → 1 blasting powder.
+- Coke can now be ground into powdered coke (`petroleumpatch:powder-coke`) in a quern or pulverizer, giving the coke from bitumen a second use.
+
+## 1.3.2
+
+- The barrel no longer needs coal. Sealing a barrel containing only crude oil converts it to bitumen after 3 in-game days (72 hours).
+- Bitumen can now be baked into coke in a clay oven or an Electric Oven (Electrical Progressive: QoL).
+- Bitumen has `bakingProperties` at 200 °C, so both ovens accept it. The Electric Oven supports pipe automation: bitumen in, coke out, with the finished coke available for extraction.
+- Iron bits and iron ingots now melt at 1320 °C. A charcoal firepit peaks at 1300 °C and cannot reach this; coke at 1340 °C is required.
+- Enlarged the fired crucible's `maxContentDimensions` so whole ingots fit. All ingots can now be melted and poured, not just bits.
+- Added the missing smelting properties for stainless steel (1530 °C) and uranium (1133 °C) ingots and metal bits.
+- The existing cooking-pot routes and the Electric Stove bitumen-to-coke smelting route remain available.
+
 ## 1.3.1
 
 - Fixed pouring molten iron. 1.3.0 lowered the iron bits' melting point, but the crucible stores smelted bits as an iron ingot, which still melted at 1482 °C. The crucible therefore treated its contents as solidified and refused to pour.

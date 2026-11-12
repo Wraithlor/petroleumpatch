@@ -31,5 +31,19 @@
       "type": "item",
       "code": "game:coke"
     }
+  },
+  {
+    "file": "petroleum:itemtypes/bitumen.json",
+    "op": "add",
+    "path": "/attributes/bakingProperties",
+    "value": {
+      "temp": 200,
+      "levelFrom": 0,
+      "levelTo": 1,
+      "startScaleY": 1,
+      "endScaleY": 1,
+      "resultCode": "game:coke",
+      "initialCode": "petroleum:bitumen"
+    }
   }
 ]

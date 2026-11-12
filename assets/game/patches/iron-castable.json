@@ -3,14 +3,62 @@
     "file": "game:itemtypes/resource/metalbit.json",
     "op": "replace",
     "path": "/combustiblePropsByType/*-iron/meltingPoint",
-    "value": 1150,
+    "value": 1320,
     "side": "Server"
   },
   {
     "file": "game:itemtypes/resource/ingot.json",
     "op": "replace",
     "path": "/combustiblePropsByType/ingot-iron/meltingPoint",
-    "value": 1150,
+    "value": 1320,
+    "side": "Server"
+  },
+  {
+    "file": "game:itemtypes/resource/ingot.json",
+    "op": "add",
+    "path": "/combustiblePropsByType/ingot-stainlesssteel",
+    "value": {
+      "meltingPoint": 1530,
+      "meltingDuration": 30,
+      "smeltedRatio": 1,
+      "smeltedStack": { "type": "item", "code": "ingot-stainlesssteel" }
+    },
+    "side": "Server"
+  },
+  {
+    "file": "game:itemtypes/resource/ingot.json",
+    "op": "add",
+    "path": "/combustiblePropsByType/ingot-uranium",
+    "value": {
+      "meltingPoint": 1133,
+      "meltingDuration": 30,
+      "smeltedRatio": 1,
+      "smeltedStack": { "type": "item", "code": "ingot-uranium" }
+    },
+    "side": "Server"
+  },
+  {
+    "file": "game:itemtypes/resource/metalbit.json",
+    "op": "add",
+    "path": "/combustiblePropsByType/*-stainlesssteel",
+    "value": {
+      "meltingPoint": 1530,
+      "meltingDuration": 30,
+      "smeltedRatio": 20,
+      "smeltedStack": { "type": "item", "code": "ingot-stainlesssteel" }
+    },
+    "side": "Server"
+  },
+  {
+    "file": "game:itemtypes/resource/metalbit.json",
+    "op": "add",
+    "path": "/combustiblePropsByType/*-uranium",
+    "value": {
+      "meltingPoint": 1133,
+      "meltingDuration": 30,
+      "smeltedRatio": 20,
+      "smeltedStack": { "type": "item", "code": "ingot-uranium" }
+    },
     "side": "Server"
   }
 ]

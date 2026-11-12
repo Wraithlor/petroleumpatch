@@ -1,0 +1,38 @@
+[
+  {
+    "ingredientPattern": "CCC",
+    "requiresTrait": "powdermaker",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:powder-charcoal"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:blastingpowder",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "CC",
+    "requiresTrait": "powdermaker",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "petroleumpatch:powder-coke"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": {
+      "type": "item",
+      "code": "game:blastingpowder",
+      "quantity": 1
+    }
+  }
+]

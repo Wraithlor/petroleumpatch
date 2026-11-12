@@ -1,0 +1,8 @@
+{
+  "game:trait-powdermaker": "<font color=\"#99d6ff\">• Powdermaker </font>",
+  "game:traitname-powdermaker": "Powdermaker",
+  "game:traitdesc-powdermaker": "Exclusive craftable <a href=\"handbooksearch://blasting powder\">blasting powder</a> from powdered charcoal or powdered coke",
+
+  "item-powder-coke": "Powdered Coke",
+  "itemdesc-powder-coke": "Ground coke. A Powdermaker can turn it into blasting powder."
+}

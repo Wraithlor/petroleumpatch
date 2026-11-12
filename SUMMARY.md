@@ -2,7 +2,7 @@
 
 ## Summary
 
-An iron-friendly Petroleum Age patch for a safe-island server with limited resources: crude oil → bitumen → coke cooking, Electric Stove smelting, sealed coal-assisted barrel conversion, castable iron, and disabled rift/temporal storm spawns.
+An iron-friendly Petroleum Age patch for a safe-island server with limited resources: crude oil → bitumen → coke cooking and baking, Electric Oven automation, coal-free sealed barrel conversion, coke-gated castable iron, a Blackguard powdermaker trait for charcoal and coke blasting powder, and disabled rift/temporal storm spawns.
 
 ## Description
 
@@ -25,23 +25,39 @@ This patch was built for a custom server organized around safe islands with limi
 ### Crude oil processing
 - **Cooking pot:** 1 litre of crude oil cooks into 1 bitumen.
 - **Cooking pot:** 1 bitumen cooks into 1 coke.
-- **Electric Stove:** bitumen smelts into coke at 400°C. No cooking pot or crucible is required.
-- **Barrel conversion:** 1 litre of crude oil plus 1 charcoal, brown coal, or black coal converts into 1 bitumen after the barrel is sealed for 3 in-game days.
+- **Clay oven:** 1 bitumen bakes into 1 coke at 200 °C.
+- **Electric Oven (Electrical Progressive: QoL):** 1 bitumen bakes into 1 coke at 200 °C, with manual or pipe input and output.
+- **Electric Stove:** bitumen smelts into coke at 400 °C. No cooking pot or crucible is required.
+- **Barrel conversion:** 1 litre of crude oil converts into 1 bitumen after the barrel is sealed for 3 in-game days. No coal is needed.
 
 ### Barrel conversion
-- The recipe is 1:1: 1 litre of crude oil to 1 of charcoal, brown coal, or black coal.
-- Fill the barrel to an exact 1:1 ratio — for example, 50 L of crude oil and 50 coal — then seal it.
-- A barrel will not seal unless its contents match the recipe.
-- After 3 in-game days (72 hours) the crude oil and coal are consumed and each litre becomes 1 bitumen.
-- The coal is consumed, not reused.
+- Load the barrel with crude oil only. No coal or other additive is required.
+- A barrel will not seal unless its contents match the recipe, so fill it with whole litres of crude oil.
+- After 3 in-game days (72 hours) the crude oil is consumed and each litre becomes 1 bitumen.
+
+### Bitumen to coke in ovens
+- Bitumen bakes into coke in a vanilla clay oven or an Electrical Progressive: QoL Electric Oven.
+- Bitumen bakes at 200 °C, below the 300 °C maximum of both ovens.
+- The Electric Oven supports automatic input and output through pipes: bitumen in, coke out.
+- The clay oven is the manual option. Place bitumen in a hot oven after the fire has burned out and wait for it to turn into coke.
 
 ### Castable iron bits
-- Iron bits melt at 1150 °C instead of the vanilla 1482 °C, putting them below the crucible's 1200 °C limit and within reach of a charcoal (1300 °C) or coke (1340 °C) firepit.
+- Iron bits and iron ingots melt at 1320 °C instead of the vanilla 1482 °C.
+- A charcoal firepit peaks at 1300 °C, which is not hot enough. A coke firepit reaches 1340 °C, so coke is required to cast iron.
 - Melt 20 iron bits in a crucible to make 100 units of liquid iron — one ingot's worth.
 - Pour the liquid iron into vanilla tool and ingot molds, or into VanillaMoreMolds molds such as sawblade, nail, plate, hoop, spearhead, knife blade, scythe head, arrowhead, and the heavy ingot/plate/rod mold.
 - Toolsmith drops these bits when tool bindings break; bits from SmithingPlus or from chiseling an iron ingot work the same way.
-- Iron ingots now melt at 1150 °C too, so the crucible contents stay liquid and can be poured; whole ingots can also be melted and cast.
+- The fired crucible now accepts whole ingots, so any metal can be stored as ingots and melted and poured later. This includes copper, bronze, iron, and the other vanilla ingots.
+- Smelting properties were added for stainless steel (1530 °C) and uranium (1133 °C) ingots and bits, which were missing them in vanilla.
 - Steel and meteoric iron keep their higher vanilla melting points.
+
+### Powdermaker (Blackguard)
+- The vanilla Blackguard class gains the `powdermaker` trait. It is a plain game trait and class patch, so the Specialized Classes mod is not required.
+- Powdered charcoal and powdered coke can be turned into blasting powder:
+  - 3 powdered charcoal → 1 blasting powder
+  - 2 powdered coke → 1 blasting powder
+- Coke can be ground into `petroleumpatch:powder-coke` in a quern or pulverizer. Charcoal already grinds into vanilla powdered charcoal.
+- Both recipes are shapeless and only match for players whose class has the `powdermaker` trait.
 
 ### Spawn changes
 - Drifters, shivers, bowtorns, and their variants no longer spawn.
@@ -50,22 +66,29 @@ This patch was built for a custom server organized around safe islands with limi
 
 ## Electrical Progressive automation
 
-The new processing routes can be fully automated with Electrical Progressive machines and pipes:
+The bitumen → coke step can run fully on Electrical Progressive machines with an Electric Oven:
 
-1. **Crude oil:** Petroleum tank/valve or barrel → liquid insertion pipe → processing barrel.
-2. **Coal in:** chest of the chosen coal → item pipes → insertion pipe into the barrel, filtered to that coal type only.
-3. **Load and seal:** let the pipes fill the barrel to exactly 1:1 crude oil and coal (for example, 50 L and 50 coal), then seal it by hand. A barrel will not seal unless its contents match the recipe.
-4. **Bitumen out:** after 3 in-game days, unseal the barrel and pipe the bitumen → insertion pipe into the Electric Stove input, filtered to bitumen only.
-5. **Stove:** powered, no cooking pot installed, temperature above 400°C.
-6. **Coke out:** item pipe from the stove → insertion pipe into coke storage.
+1. **Bitumen in:** barrel or storage → item pipe → Electric Oven input, filtered to bitumen only.
+2. **Oven:** powered. The Electric Oven accepts bitumen automatically.
+3. **Coke out:** Electric Oven output → item pipe → coke storage or a chest.
 
-Use insertion pipes as the final pipe before each container. The barrel must be sealed for the conversion, so loading and unsealing are manual steps.
+The Electric Oven accepts bitumen automatically and exposes the finished coke for extraction; coke
+has no baking properties, so it is not baked further. The barrel conversion still needs a manual
+seal and unseal, but it no longer needs a coal feed:
+
+1. **Crude oil:** Petroleum tank/valve or liquid pipe → processing barrel, or fill the barrel by hand.
+2. **Seal:** seal the barrel by hand. No coal or other additive is needed.
+3. **Bitumen out:** after 3 in-game days, unseal the barrel; it holds 1 bitumen per litre of crude oil.
+4. **Coke:** move the bitumen to the Electric Oven as described above.
+
+Use insertion pipes as the final pipe before each container. The clay oven and cooking pot remain
+manual alternatives, and the Electric Stove route can still smelt bitumen at 400 °C.
 
 ## Requirements
 
 - Vintage Story 1.22.x
 - Petroleum Age
-- Electrical Progressive: QoL (for the Electric Stove)
+- Electrical Progressive: QoL (for the Electric Oven)
 - Electrical Progressive: Transport (for pipe automation)
 
 Tested with Vintage Story 1.22.7, Petroleum Age 0.21.0, Electrical Progressive QoL 3.3.1, and Electrical Progressive Transport 2.0.0.
