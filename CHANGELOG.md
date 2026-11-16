@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.6.1
+
+- Split the fine gunpowder conversions into two differently shaped recipes. They used to be a single 1x1 recipe with the same input and two different outputs, so the game always picked one of them and the other was impossible to craft.
+- 2 fine gunpowder stacked vertically now makes 2 saltpeter; 2 fine gunpowder placed side by side now makes 2 powdered sulfur. The 1:1 gunpowder ratio is unchanged.
+- Both conversions now require the `powdermaker` trait, the same skill used for the blasting powder recipes.
+- The Primer Press handbook text now mentions the Powdermaker route.
+
 ## 1.6.0
 
 - Added a gunpowder route for Colonial Firearms primers. The Primer Press's inputs are hardcoded in the mod's C# code (`game:saltpeter`, `game:powder-sulfur`, `game:nugget-nativecopper`), so the press itself cannot be repatched; instead the patch supplies the missing routes.

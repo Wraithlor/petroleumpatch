@@ -22,13 +22,14 @@
     "op": "add",
     "path": "/-",
     "value": {
-      "ingredientPattern": "G",
+      "ingredientPattern": "G,G",
       "ingredients": {
         "G": { "type": "item", "code": "maltiezfirearms:gunpowder-fine" }
       },
       "width": 1,
-      "height": 1,
-      "output": { "type": "item", "code": "game:saltpeter", "quantity": 1 }
+      "height": 2,
+      "requiresTrait": "powdermaker",
+      "output": { "type": "item", "code": "game:saltpeter", "quantity": 2 }
     }
   },
   {
@@ -37,13 +38,14 @@
     "op": "add",
     "path": "/-",
     "value": {
-      "ingredientPattern": "G",
+      "ingredientPattern": "GG",
       "ingredients": {
         "G": { "type": "item", "code": "maltiezfirearms:gunpowder-fine" }
       },
-      "width": 1,
+      "width": 2,
       "height": 1,
-      "output": { "type": "item", "code": "game:powder-sulfur", "quantity": 1 }
+      "requiresTrait": "powdermaker",
+      "output": { "type": "item", "code": "game:powder-sulfur", "quantity": 2 }
     }
   },
   {
@@ -51,6 +53,6 @@
     "file": "colonialfirearms:lang/en.json",
     "op": "replace",
     "path": "/blockdesc-primerpress",
-    "value": "Universal hand-operated press for producing Primers from saltpeter, powdered sulfur, and native copper. Both mineral powders can be made from fine gunpowder, and Primers can also be assembled by hand from fine gunpowder and a native copper nugget."
+    "value": "Universal hand-operated press for producing Primers from saltpeter, powdered sulfur, and native copper. A Powdermaker can make both mineral powders from fine gunpowder, and Primers can also be assembled by hand from fine gunpowder and a native copper nugget."
   }
 ]
