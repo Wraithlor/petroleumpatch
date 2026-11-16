@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.6.2
+
+- Swapped the two gunpowder conversion layouts: 2 fine gunpowder stacked vertically now makes 2 powdered sulfur, and 2 fine gunpowder placed side by side now makes 2 saltpeter. The 1:1 gunpowder ratio and the `powdermaker` requirement are unchanged.
+
 ## 1.6.1
 
 - Split the fine gunpowder conversions into two differently shaped recipes. They used to be a single 1x1 recipe with the same input and two different outputs, so the game always picked one of them and the other was impossible to craft.

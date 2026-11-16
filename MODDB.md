@@ -27,7 +27,7 @@ This patch was built for a custom server organized around safe islands with limi
 - The double-barrel shotgun, Webley revolver, and Trapdoor rifle are craftable from iron components: rifle barrel halves, gun springs, Trapdoor actions, Webley barreled frames, and Webley cylinders are forged from iron ingots.
 - The Martini-Henry remains steel-gated: its Martini action still requires a steel ingot.
 - Bullet molds and trigger/sear sets were already iron and are unchanged.
-- Primers can be made from fine gunpowder. The Primer Press's inputs are hardcoded in Colonial Firearms, so the patch adds routes instead: a Powdermaker can stack 2 fine gunpowder vertically to make 2 saltpeter, or place 2 fine gunpowder side by side to make 2 powdered sulfur. That lets the press run on 2 fine gunpowder + 1 native copper nugget per 16 primers. Primers can also be hand-assembled: 1 fine gunpowder + 1 native copper nugget → 4 primers, shapeless.
+- Primers can be made from fine gunpowder. The Primer Press's inputs are hardcoded in Colonial Firearms, so the patch adds routes instead: a Powdermaker can stack 2 fine gunpowder vertically to make 2 powdered sulfur, or place 2 fine gunpowder side by side to make 2 saltpeter. That lets the press run on 2 fine gunpowder + 1 native copper nugget per 16 primers. Primers can also be hand-assembled: 1 fine gunpowder + 1 native copper nugget → 4 primers, shapeless.
 - The Primer Press handbook text now mentions the gunpowder routes.
 - No hard dependency: the patch is skipped automatically if Colonial Firearms is not installed.
 
