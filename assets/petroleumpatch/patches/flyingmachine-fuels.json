@@ -1,0 +1,44 @@
+[
+  {
+    "dependsOn": [{ "modid": "flyingmachine" }],
+    "file": "flyingmachine:entities/flyingmachine.json",
+    "op": "add",
+    "path": "/attributes/fuel/types/-",
+    "value": { "code": "petroleum:gasolineportion", "efficiency": 2.5 }
+  },
+  {
+    "dependsOn": [{ "modid": "flyingmachine" }],
+    "file": "flyingmachine:entities/flyingmachine.json",
+    "op": "add",
+    "path": "/attributes/fuel/types/-",
+    "value": { "code": "petroleum:keroseneportion", "efficiency": 2 }
+  },
+  {
+    "dependsOn": [{ "modid": "flyingmachine" }],
+    "file": "flyingmachine:entities/flyingmachine.json",
+    "op": "add",
+    "path": "/attributes/fuel/types/-",
+    "value": { "code": "petroleum:dieselportion", "efficiency": 2 }
+  },
+  {
+    "dependsOn": [{ "modid": "flyingmachine" }],
+    "file": "flyingmachine:entities/flyingmachine.json",
+    "op": "add",
+    "path": "/attributes/fuel/types/-",
+    "value": { "code": "petroleum:fueloilportion", "efficiency": 1.5 }
+  },
+  {
+    "dependsOn": [{ "modid": "flyingmachine" }],
+    "file": "flyingmachine:lang/en.json",
+    "op": "replace",
+    "path": "/fuel-insert",
+    "value": "Put in a container of Aqua Vitae or refined fuel"
+  },
+  {
+    "dependsOn": [{ "modid": "flyingmachine" }],
+    "file": "flyingmachine:lang/en.json",
+    "op": "replace",
+    "path": "/fuel-wrong",
+    "value": "This will not burn in the engine"
+  }
+]

@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.7.0
+
+- Added optional Flying Machine compatibility. The patch is skipped automatically if Flying Machine is not installed.
+- The Flying Machine fuel tank now accepts Petroleum Age gasoline, kerosene, diesel, and heavy fuel oil in buckets, jugs, and bottles.
+- Range relative to Aqua Vitae: gasoline 2.5×, kerosene 2×, diesel 2×, and heavy fuel oil 1.5×. The fuel gauge still counts in Aqua Vitae litres.
+- The fuel dialog now says "Aqua Vitae or refined fuel" instead of claiming the engine only runs on Aqua Vitae.
+
 ## 1.6.2
 
 - Swapped the two gunpowder conversion layouts: 2 fine gunpowder stacked vertically now makes 2 powdered sulfur, and 2 fine gunpowder placed side by side now makes 2 saltpeter. The 1:1 gunpowder ratio and the `powdermaker` requirement are unchanged.

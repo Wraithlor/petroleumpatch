@@ -5,7 +5,7 @@ It makes late-game oil technology reachable in a resource-limited world, adds au
 refining routes, and calms rift-related hostile spawns.
 
 - **ModID:** `petroleumpatch`
-- **Version:** 1.6.0
+- **Version:** 1.7.0
 - **Side:** Universal (server-side changes; no client code)
 
 ## Why this patch exists
@@ -31,6 +31,12 @@ island-based industry. The spawn changes support the same setting.
 - Primers can be made from fine gunpowder. The Primer Press's inputs are hardcoded in Colonial Firearms, so the patch adds routes instead: a Powdermaker can stack 2 fine gunpowder vertically to make 2 powdered sulfur, or place 2 fine gunpowder side by side to make 2 saltpeter. That lets the press run on 2 fine gunpowder + 1 native copper nugget per 16 primers. Primers can also be hand-assembled: 1 fine gunpowder + 1 native copper nugget → 4 primers, shapeless.
 - The Primer Press handbook text now mentions the gunpowder routes.
 - No hard dependency: the patch is skipped automatically if Colonial Firearms is not installed.
+
+### Flying Machine compatibility (optional)
+- When Flying Machine is installed, its fuel tank accepts Petroleum Age refined fuels in buckets, jugs, and bottles.
+- Fuel range relative to Aqua Vitae: gasoline 2.5×, kerosene 2×, diesel 2×, and heavy fuel oil 1.5×.
+- The fuel gauge still counts in Aqua Vitae litres, so the tank capacity and burn rate are unchanged.
+- No hard dependency: the patch is skipped automatically if Flying Machine is not installed.
 
 ### Crude oil processing
 | Route | Input | Output | Notes |
@@ -89,7 +95,8 @@ island-based industry. The spawn changes support the same setting.
 - Electrical Progressive: Transport (pipe automation)
 
 Tested with Vintage Story 1.22.7, Petroleum Age 0.21.0, Electrical Progressive QoL 3.3.1,
-and Electrical Progressive Transport 2.0.0. The optional Colonial Firearms patch targets 0.9.88.
+Electrical Progressive Transport 2.0.0, and Flying Machine 0.1.2. The optional Colonial Firearms
+patch targets 0.9.88.
 
 ### Optional compatibility
 
@@ -97,6 +104,7 @@ These mods are supported but **not required**:
 
 - **Toolsmith** — the iron bits it drops when tool bindings break are castable.
 - **VanillaMoreMolds** — its tool molds and heavy mold accept cast iron.
+- **Flying Machine** — its fuel tank accepts Petroleum Age gasoline, kerosene, diesel, and heavy fuel oil.
 - **Colonial Firearms** — ammunition manufacturing and the low-grade firearms use iron, primers can be made from fine gunpowder, and the Martini-Henry stays steel-gated.
 - None of these mods has to be installed; their patches are skipped when the mod is absent.
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-An iron-friendly Petroleum Age patch for a safe-island server with limited resources: crude oil → bitumen → coke cooking and baking, Electric Oven automation, coal-free sealed barrel conversion, coke-gated castable iron, a Blackguard powdermaker trait for charcoal and coke blasting powder, disabled rift/temporal storm spawns, and optional iron-age Colonial Firearms ammunition and low-grade firearm recipes.
+An iron-friendly Petroleum Age patch for a safe-island server with limited resources: crude oil → bitumen → coke cooking and baking, Electric Oven automation, coal-free sealed barrel conversion, coke-gated castable iron, a Blackguard powdermaker trait for charcoal and coke blasting powder, disabled rift/temporal storm spawns, optional Flying Machine fuel compatibility, and optional iron-age Colonial Firearms ammunition and low-grade firearm recipes.
 
 ## Description
 
@@ -30,6 +30,12 @@ This patch was built for a custom server organized around safe islands with limi
 - Primers can be made from fine gunpowder. The Primer Press's inputs are hardcoded in Colonial Firearms, so the patch adds routes instead: a Powdermaker can stack 2 fine gunpowder vertically to make 2 powdered sulfur, or place 2 fine gunpowder side by side to make 2 saltpeter. That lets the press run on 2 fine gunpowder + 1 native copper nugget per 16 primers. Primers can also be hand-assembled: 1 fine gunpowder + 1 native copper nugget → 4 primers, shapeless.
 - The Primer Press handbook text now mentions the gunpowder routes.
 - No hard dependency: the patch is skipped automatically if Colonial Firearms is not installed.
+
+### Flying Machine compatibility (optional)
+- When Flying Machine is installed, its fuel tank accepts Petroleum Age refined fuels in buckets, jugs, and bottles.
+- Fuel range relative to Aqua Vitae: gasoline 2.5×, kerosene 2×, diesel 2×, and heavy fuel oil 1.5×.
+- The fuel gauge still counts in Aqua Vitae litres, so the tank capacity and burn rate are unchanged.
+- No hard dependency: the patch is skipped automatically if Flying Machine is not installed.
 
 ### Crude oil processing
 - **Cooking pot:** 1 litre of crude oil cooks into 1 bitumen.
@@ -100,7 +106,7 @@ manual alternatives, and the Electric Stove route can still smelt bitumen at 400
 - Electrical Progressive: QoL (for the Electric Oven)
 - Electrical Progressive: Transport (for pipe automation)
 
-Tested with Vintage Story 1.22.7, Petroleum Age 0.21.0, Electrical Progressive QoL 3.3.1, and Electrical Progressive Transport 2.0.0. The optional Colonial Firearms patch targets 0.9.88.
+Tested with Vintage Story 1.22.7, Petroleum Age 0.21.0, Electrical Progressive QoL 3.3.1, Electrical Progressive Transport 2.0.0, and Flying Machine 0.1.2. The optional Colonial Firearms patch targets 0.9.88.
 
 ### Optional compatibility
 
@@ -108,6 +114,7 @@ These mods are supported but **not required**:
 
 - **Toolsmith** — the iron bits it drops when tool bindings break are castable.
 - **VanillaMoreMolds** — its tool molds and heavy mold accept cast iron.
+- **Flying Machine** — its fuel tank accepts Petroleum Age gasoline, kerosene, diesel, and heavy fuel oil.
 - **Colonial Firearms** — ammunition manufacturing and the low-grade firearms use iron, primers can be made from fine gunpowder, and the Martini-Henry stays steel-gated.
 - None of these mods has to be installed; their patches are skipped when the mod is absent.
 
