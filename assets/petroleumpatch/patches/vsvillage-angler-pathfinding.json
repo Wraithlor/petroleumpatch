@@ -1,0 +1,9 @@
+[
+  {
+    "dependsOn": [{ "modid": "vsvillage" }],
+    "file": "vsvillage:entities/villager.json",
+    "op": "replace",
+    "path": "/server/behaviors/8/aitasks/38/pathfindNodes",
+    "value": 2000
+  }
+]

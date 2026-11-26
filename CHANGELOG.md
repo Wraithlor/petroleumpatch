@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.7.1
+
+- Added an optional VsVillage compatibility patch that caps the angler villager's fishing pathfinder at 2,000 nodes instead of 15,000.
+- Anglers still fish normally; the lower cap only stops a stuck fishing trip from blocking the server's main thread for seconds at a time.
+- The patch is skipped automatically when VsVillage is not installed.
+
 ## 1.7.0
 
 - Added optional Flying Machine compatibility. The patch is skipped automatically if Flying Machine is not installed.
